@@ -1,9 +1,39 @@
-Feature: Login functionality
+@Regression
+Feature: Searceh Feature
 
-  Scenario: Successful login
+  @Search-01    @smoke
+  Scenario: To Verify Positive Search Functionality
+    Given User Lanc the url
+#    When User Enter Pr oductname Valid
+#    And User Click the Search Button
+#    Then User Verified the Product Search Functionality
 
-    Given I open the login page
-    When I enter username "testuser"
-    And I enter password "password123"
-    And I click the login button
-    Then I should see the home page
+#  @Search-02    @Sanity
+#  Scenario:To Verify Negative Search Functionality
+#    Given User Lanc the url
+#    When User Enter Productname Ivalid
+#    And User Click the Search Button
+#    Then User Verified the Product Search Functionality
+#
+#  @Search-03    @smoke
+#  Scenario: To Verify the Empty Search
+#    Given User Lanc the url
+#    When User Make The Empty Search
+#    And User Click the Search Button
+#    Then  User Verfy the Empty Search
+#
+#  @AllInOne
+#  Scenario Outline: To Verify the product Search
+#    Given User Lanc the url
+#    When User Enter the Productname "<productname>"
+#    And User Click the Search Button
+#    Then  User Verify the search Results
+#    Examples:
+#    | productname   |
+#    | iPhone        |
+##    | GF*&%y        |
+##    | samsung       |
+##    | Sony          |
+##    | moto          |
+##    | 76576576      |
+##    | IUGJGH*&%*&*& |
